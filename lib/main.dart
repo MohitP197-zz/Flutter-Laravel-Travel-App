@@ -30,6 +30,7 @@ class MyHomePage extends StatelessWidget {
               alignment: Alignment.center,
               children: <Widget>[
                 Container(
+                  margin: EdgeInsets.only(left: 30.0, bottom: 15.0),
                   height: 60.0,
                   width: 60.0,
                   decoration: BoxDecoration(
@@ -65,7 +66,7 @@ class MyHomePage extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(left: 110.0, top: 40.0),
+                  margin: EdgeInsets.only(left: 110.0, top: 70.0),
                   height: 60.0,
                   width: 60.0,
                   decoration: BoxDecoration(
