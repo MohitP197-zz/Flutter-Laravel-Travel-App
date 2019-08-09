@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travelapp/pages/Home/home.dart';
 import 'stacked_icons.dart';
 
 class LoginPage extends StatelessWidget {
@@ -52,16 +53,24 @@ class LoginPage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.only(
                         left: 20.0, right: 5.0, top: 10.0),
-                    child: Container(
-                      alignment: Alignment.center,
-                      height: 70.0,
-                      width: 70.0,
-                      decoration: BoxDecoration(
-                          color: Color(0xFF18D191),
-                          borderRadius: BorderRadius.circular(10.0)),
-                      child: Text(
-                        "Login",
-                        style: TextStyle(fontSize: 20.0, color: Colors.white),
+                    child: GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => HomePage()));
+                      },
+                      child: Container(
+                        alignment: Alignment.center,
+                        height: 70.0,
+                        width: 70.0,
+                        decoration: BoxDecoration(
+                            color: Color(0xFF18D191),
+                            borderRadius: BorderRadius.circular(10.0)),
+                        child: Text(
+                          "Login",
+                          style: TextStyle(fontSize: 20.0, color: Colors.white),
+                        ),
                       ),
                     ),
                   ),
@@ -91,8 +100,10 @@ class LoginPage extends StatelessWidget {
                     padding: const EdgeInsets.only(bottom: 18.0),
                     child: Text(
                       "Create A New Account",
-                      style:
-                          TextStyle(fontSize: 17.0, color: Color(0xDD18D191), fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                          fontSize: 17.0,
+                          color: Color(0xDD18D191),
+                          fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
