@@ -40,6 +40,9 @@ class MainContent extends StatelessWidget {
                     ),
                   ],
                 ),
+                SizedBox(
+                  height: 10.0,
+                ),
                 Row(
                   children: <Widget>[
                     Expanded(
