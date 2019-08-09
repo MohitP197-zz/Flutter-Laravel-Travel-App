@@ -132,7 +132,6 @@ class MyHomePage extends StatelessWidget {
                     child: Container(
                       alignment: Alignment.center,
                       height: 70.0,
-                      width: 70.0,
                       decoration: BoxDecoration(
                           color: Color(0xFF4364A1),
                           borderRadius: BorderRadius.circular(10.0)),
