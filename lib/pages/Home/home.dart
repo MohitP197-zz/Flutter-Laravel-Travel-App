@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travelapp/pages/Home/bottomNavigationBar.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -9,6 +10,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: BottomNavigation(),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0.0,

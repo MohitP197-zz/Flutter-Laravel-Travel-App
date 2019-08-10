@@ -84,7 +84,7 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Padding(
-                  padding: const EdgeInsets.only(top: 8.0, bottom: 90.0),
+                  padding: const EdgeInsets.only(top: 8.0, bottom: 60.0),
                   child: Text(
                     "Travel App",
                     style: TextStyle(fontSize: 30.0),
