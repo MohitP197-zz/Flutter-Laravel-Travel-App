@@ -32,7 +32,7 @@ class MainContent extends StatelessWidget {
                 Row(
                   children: <Widget>[
                     Text(
-                      "Explore",
+                      "Explore Nepal",
                       style: TextStyle(
                         fontSize: 30.0,
                       ),
@@ -404,6 +404,113 @@ class MainContent extends StatelessWidget {
                             ),
                             Text(
                               "Scorpio",
+                              style: TextStyle(fontSize: 16.0),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(
+                  height: 15.0,
+                ),
+                Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Text(
+                        "Popular Packages",
+                        style: TextStyle(fontSize: 20.0),
+                      ),
+                    ),
+                    Expanded(
+                      child: Text(
+                        "View All",
+                        style: TextStyle(color: Color(0xFF2BD093)),
+                        textAlign: TextAlign.end,
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Container(
+                        height: 150.0,
+                        child: Column(
+                          children: <Widget>[
+                            Container(
+                              height: 100.0,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5.0),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                      "https://i.ytimg.com/vi/6kmFiiLghDA/maxresdefault.jpg",
+                                    ),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                            Text(
+                              "Muktinath",
+                              style: TextStyle(fontSize: 16.0),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 5.0,
+                    ),
+                    Expanded(
+                      child: Container(
+                        height: 150.0,
+                        child: Column(
+                          children: <Widget>[
+                            Container(
+                              height: 100.0,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5.0),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                        "https://www.sunriseadventuretrek.com/wp-content/uploads/2018/01/kAG-bENI-jOMSOM-1024x690.jpg"),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                            Text(
+                              "Mustang",
+                              style: TextStyle(fontSize: 16.0),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 5.0,
+                    ),
+                    Expanded(
+                      child: Container(
+                        height: 150.0,
+                        child: Column(
+                          children: <Widget>[
+                            Container(
+                              height: 100.0,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5.0),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                      "https://217354-660080-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/12/rara-lake-1170x540.jpg",
+                                    ),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                            Text(
+                              "Rara",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
