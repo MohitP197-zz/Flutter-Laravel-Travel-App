@@ -11,13 +11,21 @@ class BottomNavigation extends StatelessWidget {
             title: Text(''),
             icon: Icon(Icons.home),
           ),
+          // BottomNavigationBarItem(
+          //   title: Text(''),
+          //   icon: Icon(Icons.search),
+          // ),
           BottomNavigationBarItem(
             title: Text(''),
-            icon: Icon(Icons.search),
+            icon: Icon(Icons.flight),
           ),
           BottomNavigationBarItem(
             title: Text(''),
-            icon: Icon(Icons.people),
+            icon: Icon(Icons.local_hotel),
+          ),
+          BottomNavigationBarItem(
+            title: Text(''),
+            icon: Icon(Icons.drive_eta),
           ),
         ]);
   }
