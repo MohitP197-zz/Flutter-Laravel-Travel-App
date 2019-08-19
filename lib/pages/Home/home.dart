@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/pages/Home/bottomNavigationBar.dart';
+import 'package:travelapp/pages/Hotels/individual_hotel.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -11,12 +12,13 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: BottomNavigation(),
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0.0,
-        iconTheme: IconThemeData(color: Color(0xFF18D191)),
-      ),
-      body: MainContent(),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.transparent,
+      //   elevation: 0.0,
+      //   iconTheme: IconThemeData(color: Color(0xFF18D191)),
+      // ),
+      // body: MainContent(),
+      body: IndividualHotel(),
     );
   }
 }
