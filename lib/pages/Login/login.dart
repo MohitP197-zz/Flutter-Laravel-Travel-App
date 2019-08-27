@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/pages/Home/home.dart';
+// import 'package:travelapp/pages/Hotelss/allHotels.dart';
 import 'stacked_icons.dart';
 
 class LoginPage extends StatelessWidget {
@@ -59,6 +60,8 @@ class LoginPage extends StatelessWidget {
                             context,
                             MaterialPageRoute(
                                 builder: (context) => HomePage()));
+                                // builder: (context) => AllHotels()));
+                                // builder: (context) => App()));
                       },
                       child: Container(
                         alignment: Alignment.center,

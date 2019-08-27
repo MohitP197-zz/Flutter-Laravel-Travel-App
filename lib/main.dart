@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+// import 'package:travelapp/pages/Hotelss/allHotels.dart';
+// import 'package:travelapp/utils/drawer.dart';
 import './pages/Login/login.dart';
 
 void main() => runApp(MyApp());
@@ -15,6 +17,11 @@ class MyApp extends StatelessWidget {
         // primarySwatch: Colors.blue,
       ),
       home: MyHomePage(),
+      // initialRoute: '/',
+      // routes: {
+      //   // '/': (context) => MyHomePage(),
+      //   '/allHotels': (context) => AllHotels(),
+      // },
     );
   }
 }

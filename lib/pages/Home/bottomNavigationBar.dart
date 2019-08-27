@@ -13,18 +13,18 @@ class BottomNavigation extends StatelessWidget {
             title: Text(''),
             icon: Icon(Icons.home),
           ),
-          BottomNavigationBarItem(
-            title: Text(''),
-            icon: Icon(Icons.flight),
-          ),
+          // BottomNavigationBarItem(
+          //   title: Text(''),
+          //   icon: Icon(Icons.flight),
+          // ),
           BottomNavigationBarItem(
             title: Text(''),
             icon: Icon(Icons.local_hotel),
           ),
-          BottomNavigationBarItem(
-            title: Text(''),
-            icon: Icon(Icons.drive_eta),
-          ),
+          // BottomNavigationBarItem(
+          //   title: Text(''),
+          //   icon: Icon(Icons.drive_eta),
+          // ),
         ]);
   }
 }
