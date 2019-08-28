@@ -41,6 +41,16 @@ class Drawers extends StatelessWidget {
               ),
             ),
             ListTile(
+                leading: Icon(
+                  Icons.bookmark,
+                  color: Colors.black,
+                ),
+                title: Text(
+                  'Home',
+                  style: listStyle,
+                ),
+                onTap: () {}),
+            ListTile(
               leading: Icon(
                 Icons.bookmark,
                 color: Colors.black,

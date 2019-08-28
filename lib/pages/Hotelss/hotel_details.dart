@@ -10,6 +10,9 @@ class HotelDetails extends StatefulWidget {
 
 class _HotelDetailsState extends State<HotelDetails> {
   bool _isChecked = false;
+  var _availableRooms = ['1', '2', '3', '4'];
+  var _currentItemSelected = "1";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -221,9 +224,47 @@ class _HotelDetailsState extends State<HotelDetails> {
                                           textAlign: TextAlign.left,
                                         ),
                                       ),
-                                      Padding(
-                                        padding: const EdgeInsets.only(
-                                            right: 0.0, left: 8.0),
+                                      Container(
+                                        child: Padding(
+                                          padding: const EdgeInsets.only(
+                                              bottom: 8.0, left: 5.0),
+                                          child: Row(
+                                            children: <Widget>[
+                                              DropdownButton<String>(
+                                                // Map function gets the value as a string in a iteration for each list
+                                                items: _availableRooms.map(
+                                                    (String
+                                                        dropDownStringItem) {
+                                                  return DropdownMenuItem<
+                                                      String>(
+                                                    value: dropDownStringItem,
+                                                    child: Text(
+                                                      dropDownStringItem,
+                                                      style: TextStyle(
+                                                          color: Color(
+                                                              0xFF11b719)),
+                                                    ),
+                                                  );
+                                                }).toList(),
+                                                onChanged: (String
+                                                    selectedTotalRooms) {
+                                                  _onSelectingTotalRoom(
+                                                      selectedTotalRooms);
+                                                },
+                                                value: _currentItemSelected,
+                                                isExpanded: false,
+                                                hint: Text(
+                                                  'Choose Number of Rooms',
+                                                  style: TextStyle(
+                                                      color: Color(0xFF11b719)),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
+                                      Container(
+                                        alignment: Alignment.centerRight,
                                         child: CheckboxListTile(
                                             value: _isChecked,
                                             onChanged: (val) {
@@ -231,7 +272,7 @@ class _HotelDetailsState extends State<HotelDetails> {
                                                 _isChecked = val;
                                               });
                                             }),
-                                      )
+                                      ),
                                     ],
                                   ),
                                 ),
@@ -272,5 +313,11 @@ class _HotelDetailsState extends State<HotelDetails> {
 //        ),
 //      ),
     );
+  }
+
+  void _onSelectingTotalRoom(String selectedTotalRooms) {
+    setState(() {
+      this._currentItemSelected = selectedTotalRooms;
+    });
   }
 }

@@ -140,7 +140,7 @@ class _AllHotelsState extends State<AllHotels> {
                     onTap: () {
                       Navigator.of(context).push(
                         MaterialPageRoute(
-                          builder: (BuildContext context){
+                          builder: (BuildContext context) {
                             return HotelDetails();
                           },
                         ),
@@ -242,9 +242,9 @@ class _AllHotelsState extends State<AllHotels> {
                       ),
                     ),
                     onTap: () {
-                        Navigator.of(context).push(
+                      Navigator.of(context).push(
                         MaterialPageRoute(
-                          builder: (BuildContext context){
+                          builder: (BuildContext context) {
                             return HotelDetails();
                           },
                         ),

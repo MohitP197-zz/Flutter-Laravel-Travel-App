@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/pages/Home/bottomNavigationBar.dart';
+import 'package:travelapp/pages/Hotelss/allHotels.dart';
 // import 'package:travelapp/pages/Hotelss/allHotels.dart';
 // import 'package:travelapp/pages/Hotelss/allHotels.dart';
 import 'package:travelapp/utils/drawer.dart';
@@ -231,10 +232,18 @@ class MainContent extends StatelessWidget {
                     //             builder: (context) => AllHotels()));
                     //   },
                     Expanded(
-                      child: Text(
-                        "View All",
-                        style: TextStyle(color: Color(0xFF2BD093)),
-                        textAlign: TextAlign.end,
+                      child: GestureDetector(
+                        child: Text(
+                          "View All",
+                          style: TextStyle(color: Color(0xFF2BD093)),
+                          textAlign: TextAlign.end,
+                        ),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => AllHotels()));
+                        },
                       ),
                     ),
                     // child: Text(
