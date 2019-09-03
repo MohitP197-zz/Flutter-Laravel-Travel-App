@@ -347,13 +347,13 @@ class MainContent extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 15.0,
+                  height: 10.0,
                 ),
                 Row(
                   children: <Widget>[
                     Expanded(
                       child: Text(
-                        "Popular Vehicles",
+                        "Popular Appartments",
                         style: TextStyle(fontSize: 20.0),
                       ),
                     ),
@@ -454,13 +454,13 @@ class MainContent extends StatelessWidget {
                   ],
                 ),
                 SizedBox(
-                  height: 15.0,
+                  height: 10.0,
                 ),
                 Row(
                   children: <Widget>[
                     Expanded(
                       child: Text(
-                        "Popular Packages",
+                        "Popular Lodges",
                         style: TextStyle(fontSize: 20.0),
                       ),
                     ),
@@ -551,6 +551,113 @@ class MainContent extends StatelessWidget {
                             ),
                             Text(
                               "Rara",
+                              style: TextStyle(fontSize: 16.0),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Text(
+                        "Popular Resorts",
+                        style: TextStyle(fontSize: 20.0),
+                      ),
+                    ),
+                    Expanded(
+                      child: Text(
+                        "View All",
+                        style: TextStyle(color: Color(0xFF2BD093)),
+                        textAlign: TextAlign.end,
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(
+                  height: 10.0,
+                ),
+                Row(
+                  children: <Widget>[
+                    Expanded(
+                      child: Container(
+                        height: 150.0,
+                        child: Column(
+                          children: <Widget>[
+                            Container(
+                              height: 100.0,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5.0),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                      "http://autolife.com.np/wp-content/uploads/2014/09/86ad88aa3acf68a0be55f0db6429efa9.jpg",
+                                    ),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                            Text(
+                              "Hummer",
+                              style: TextStyle(fontSize: 16.0),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 5.0,
+                    ),
+                    Expanded(
+                      child: Container(
+                        height: 150.0,
+                        child: Column(
+                          children: <Widget>[
+                            Container(
+                              height: 100.0,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5.0),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                        "https://image.iol.co.za/image/1/process/620x349?source=https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/2017/11/10/iol/546/IOL-mot-pic-nov10-Land-Cruiser--3.jpg&operation=CROP&offset=0x1113&resize=2242x1263"),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                            Text(
+                              "Toyota Prado",
+                              style: TextStyle(fontSize: 16.0),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 5.0,
+                    ),
+                    Expanded(
+                      child: Container(
+                        height: 150.0,
+                        child: Column(
+                          children: <Widget>[
+                            Container(
+                              height: 100.0,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(5.0),
+                                image: DecorationImage(
+                                    image: NetworkImage(
+                                      "https://imgd.aeplcdn.com/1280x720/ec/79/BB/14408/img/m/Mahindra-Scorpio-Front-view-31495_ol.jpg?t=105341173&t=105341173",
+                                    ),
+                                    fit: BoxFit.cover),
+                              ),
+                            ),
+                            Text(
+                              "Scorpio",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
