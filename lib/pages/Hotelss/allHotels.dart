@@ -13,6 +13,11 @@ class AllHotels extends StatefulWidget {
 
 class _AllHotelsState extends State<AllHotels> {
   final TextEditingController _searchControl = new TextEditingController();
+  final tab = new TabBar(tabs: <Tab>[
+  new Tab(icon: new Icon(Icons.arrow_forward)),
+  new Tab(icon: new Icon(Icons.arrow_downward)),
+  new Tab(icon: new Icon(Icons.arrow_back)),
+]);
 
   @override
   Widget build(BuildContext context) {
@@ -25,6 +30,7 @@ class _AllHotelsState extends State<AllHotels> {
       drawer: Drawers(),
       body: ListView(
         children: <Widget>[
+          
           Padding(
             padding: EdgeInsets.all(20),
             child: Text(
@@ -35,6 +41,31 @@ class _AllHotelsState extends State<AllHotels> {
               ),
             ),
           ),
+          DefaultTabController(
+          length: 2,
+          
+          child: TabBar(
+            indicatorColor: Colors.lime,
+                tabs: [
+                  Tab(icon: Icon(Icons.filter, color: Colors.red,), child: Text(
+                    "Filter",
+                    style: TextStyle(
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+                 
+                  Tab(icon: Icon(Icons.search, color: Colors.red,),child: Text(
+                     "Search",
+                    style: TextStyle(
+                      color: Colors.red,
+                    ),
+                  ),
+                  ),
+                ],
+              ),
+            ),
+  
           Padding(
             padding: EdgeInsets.all(20),
             child: Container(
