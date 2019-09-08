@@ -353,7 +353,7 @@ class MainContent extends StatelessWidget {
                   children: <Widget>[
                     Expanded(
                       child: Text(
-                        "Popular Appartments",
+                        "Appartments",
                         style: TextStyle(fontSize: 20.0),
                       ),
                     ),
@@ -382,13 +382,13 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                      "http://autolife.com.np/wp-content/uploads/2014/09/86ad88aa3acf68a0be55f0db6429efa9.jpg",
+                                      "https://www.gharjagganepal.com/wp-content/uploads/WPL/3438/img_IMG_9742.JPG",
                                     ),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Hummer",
+                              "Namaste Appartment",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
@@ -410,12 +410,12 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                        "https://image.iol.co.za/image/1/process/620x349?source=https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/2017/11/10/iol/546/IOL-mot-pic-nov10-Land-Cruiser--3.jpg&operation=CROP&offset=0x1113&resize=2242x1263"),
+                                        "https://www.gharjagganepal.com/wp-content/uploads/WPL/3105/img_viber-image.jpg"),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Toyota Prado",
+                              "Stupa Colony",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
@@ -437,13 +437,13 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                      "https://imgd.aeplcdn.com/1280x720/ec/79/BB/14408/img/m/Mahindra-Scorpio-Front-view-31495_ol.jpg?t=105341173&t=105341173",
+                                      "https://lh5.googleusercontent.com/p/AF1QipNNVXynwdnkj2bcoU8qFJoyLW52xjdBCaBG-_Q7=w260-h175-n-k-no",
                                     ),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Scorpio",
+                              "Ananya Appartment",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
@@ -489,13 +489,13 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                      "https://i.ytimg.com/vi/6kmFiiLghDA/maxresdefault.jpg",
+                                      "http://www.tourismkathmandu.com/images/logos/shangrila-guest_logo.jpg",
                                     ),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Muktinath",
+                              "Shangrila Lodge",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
@@ -517,12 +517,12 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                        "https://www.sunriseadventuretrek.com/wp-content/uploads/2018/01/kAG-bENI-jOMSOM-1024x690.jpg"),
+                                        "http://www.tourismkathmandu.com/images/logos/dolphin-gh-logo.jpg"),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Mustang",
+                              "Dolphin Lodge",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
@@ -544,13 +544,13 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                      "https://217354-660080-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/12/rara-lake-1170x540.jpg",
+                                      "http://www.tourismkathmandu.com/images/logos/souvenir-gh-logo.jpg",
                                     ),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Rara",
+                              "Souvenir Lodge",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
@@ -596,13 +596,13 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                      "http://autolife.com.np/wp-content/uploads/2014/09/86ad88aa3acf68a0be55f0db6429efa9.jpg",
+                                      "https://www.imnepal.com/wp-content/uploads/2018/05/Fulbari-Resort-and-spa-kathmandu-nepal.jpg",
                                     ),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Hummer",
+                              "Fulbari Resort",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
@@ -624,12 +624,12 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                        "https://image.iol.co.za/image/1/process/620x349?source=https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/2017/11/10/iol/546/IOL-mot-pic-nov10-Land-Cruiser--3.jpg&operation=CROP&offset=0x1113&resize=2242x1263"),
+                                        "https://www.telegraph.co.uk/content/dam/Travel/hotels/asia/nepal/Dwarika%27s-Resort-p.jpg"),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Toyota Prado",
+                              "Dwarika Resort",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
@@ -651,13 +651,13 @@ class MainContent extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(5.0),
                                 image: DecorationImage(
                                     image: NetworkImage(
-                                      "https://imgd.aeplcdn.com/1280x720/ec/79/BB/14408/img/m/Mahindra-Scorpio-Front-view-31495_ol.jpg?t=105341173&t=105341173",
+                                      "https://www.rupakotresort.com/images/slideshow/ClFou-slide1.jpg",
                                     ),
                                     fit: BoxFit.cover),
                               ),
                             ),
                             Text(
-                              "Scorpio",
+                              "Rupakot Resort",
                               style: TextStyle(fontSize: 16.0),
                               textAlign: TextAlign.center,
                             )
