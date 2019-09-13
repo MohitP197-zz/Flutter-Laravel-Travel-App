@@ -41,31 +41,24 @@ class _AllHotelsState extends State<AllHotels> {
               ),
             ),
           ),
-          DefaultTabController(
-          length: 2,
           
-          child: TabBar(
-            indicatorColor: Colors.lime,
-                tabs: [
-                  Tab(icon: Icon(Icons.filter, color: Colors.red,), child: Text(
-                    "Filter",
-                    style: TextStyle(
-                      color: Colors.red,
+           Row(children: <Widget>[
+                    Expanded(
+                      child: RaisedButton(
+                        child: Text("Filter"),
+                        onPressed: () => null,
+                      ),
                     ),
-                  ),
-                ),
-                 
-                  Tab(icon: Icon(Icons.search, color: Colors.red,),child: Text(
-                     "Search",
-                    style: TextStyle(
-                      color: Colors.red,
-                    ),
-                  ),
-                  ),
-                ],
-              ),
-            ),
-  
+                   
+                    Expanded(
+                      child: RaisedButton(
+                        // child: Text("Search"),
+                        child: Icon(Icons.filter),
+                        onPressed: () => null,
+                      ),
+                    )
+                  ]),
+
           Padding(
             padding: EdgeInsets.all(20),
             child: Container(
